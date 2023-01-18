@@ -1,0 +1,39 @@
+Thread:
+Process:
+
+// IPC
+// TPC: HTTP
+
+// 10 machine, each 2 core
+// 1 machine, 20 core
+
+// supercomputer vs clustering
+
+Parallel: use multiple CPU core, do the same thing
+C = A + B
+
+Concurrent: use single CPU core, do multiple things
+Req 1, Req 2, Req 3
+IO (Disk, Network), Compute, Audio, Graphic
+
+
+OS Thread: C, Java, Node.js, Rust
+Green Thread: Go, Erlang
+
+Green Thread manager is an object pool
+it helps to manage OS Thread
+
+Imperative Programming:
+C, Javascript, Java, Python
+
+Functional Programming:
+React, Scala, Java Stream, Haskell, Elm
+
+Declarative Programming:
+SQL
+
+C = A + B
+
+for (let i = 0; i < C.length; i++) {
+	C[i] = A[i] + B[i]
+}
